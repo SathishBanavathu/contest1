@@ -1,0 +1,122 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    background-color:rgba(31, 31, 31, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 1);
+    margin: 0 20px;
+}
+.one{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    gap: 70px;
+    align-items: center;
+}
+.one>input{
+    flex-grow: 1;
+    color: rgba(255, 255, 255, 0.2)
+    ;
+}
+.one>input,button{
+    background-color:rgba(31, 31, 31, 1);
+    color: 
+    rgba(255, 255, 255, 1);
+    border: 0;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
+}
+p{
+    display: inline-block;
+}
+.container{
+    display: flex;
+    color:rgba(255, 255, 255, 1);
+    background-color: rgba(31, 31, 31, 1);
+    padding: 20px 50px 50px 50px;
+    margin: 20px;
+    border-radius: 15px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.left{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column wrap;
+    gap:10px;
+}
+.left .iteam{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.iteam>img{
+    width: 70px;
+}
+.right>img{
+    width: 200px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right>button{
+    width: 150px;
+    background-color: rgba(254, 203, 3, 1);
+    color: black;
+    border-radius: 25px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+.cat{
+    margin: 0 100px;
+}
+.para{
+    position: relative;
+    display: flex;
+    flex-flow:row wrap;
+    margin: 0 20px;
+    color: rgba(255, 255, 255, 1);
+    gap: 20px;
+    padding: 10px;
+    border-radius:10px;
+}
+.para div{
+    border: 2px solid rgba(38, 38, 38, 1) ;
+    padding: 10px;
+    width: 30%;
+}
+.para div button{
+    position: relative;
+    left: 300px;
+    background-color:rgba(254, 203, 3, 1);
+    color: black;
+    padding: 10 20px;
+    border-radius: 30px;
+} 
+.fcontainer
+{
+    display: flex;
+    background-color: rgba(38, 38, 38, 1);
+    color:rgba(255, 255, 255, 1) ;
+    padding: 20px;
+    margin: 20px 20px;
+    border-radius: 20px;
+    justify-content: space-evenly;
+
+}
+.fcontainer div{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    width: 30%;
+}
+a{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
